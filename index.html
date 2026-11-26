@@ -1,0 +1,41 @@
+﻿<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cayden 的個人作品集，收錄機票價格追蹤、班級管理與程式謎題。">
+  <title>CY｜Cayden 的作品集</title>
+  <style>
+    * { box-sizing: border-box }
+    body { margin: 0; background: #f7f8fa; color: #192231; font: 1rem/1.65 Inter, "Microsoft JhengHei", sans-serif }
+    main { max-width: 64rem; margin: auto; padding: clamp(1.25rem, 5vw, 4rem) }
+    header { position: relative; isolation: isolate; overflow: hidden; padding: clamp(2rem, 6vw, 4rem); background: #222e9b; color: white; border-radius: 1rem }
+    header::after { content: ""; position: absolute; z-index: -1; width: 120%; height: 200%; left: 48%; top: -65%; transform: rotate(-32deg); background: repeating-linear-gradient(90deg, transparent 0 1.9rem, #757cff66 1.9rem 2rem) }
+    h1 { font-family: Arial, sans-serif; font-size: clamp(6rem, 17vw, 11rem); letter-spacing: -.09em; line-height: .9; margin: 0 0 1.5rem }
+    header p { margin: 0; font-weight: 600; letter-spacing: .04em }
+    h2 { font-size: 1.25rem; margin: 2.5rem 0 .75rem }
+    ul { margin: 0; padding: 0; list-style: none; border-top: 2px solid #192231 }
+    li { border-bottom: 1px solid #bcc1ca }
+    a { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 1.35rem .5rem; color: inherit; text-decoration: none }
+    a:hover, a:focus-visible { background: #e9edff; color: #222e9b }
+    a:focus-visible { outline: 3px solid #304aca; outline-offset: 2px }
+    strong { display: block; font-size: clamp(1.25rem, 3vw, 1.65rem) }
+    small { display: block; font-size: 1rem; color: #48505e; margin-top: .2rem }
+    .source { font: 500 .875rem/1.4 monospace; color: #364398 }
+    @media (max-width: 32rem) { a { align-items: flex-start; flex-direction: column; gap: .5rem } }
+  </style>
+</head>
+<body>
+  <main>
+    <header><h1>CY</h1><p>Cayden 的個人作品集</p></header>
+    <section aria-labelledby="projects">
+      <h2 id="projects">專案作品</h2>
+      <ul>
+        <li><a href="https://github.com/CY-Marowak/FlightTicketProject"><span><strong>機票價格追蹤</strong><small>追蹤指定航班的票價，在降價時收到通知。</small></span><span class="source">GitHub</span></a></li>
+        <li><a href="https://github.com/CY-Marowak/ClassManagement"><span><strong>班級管理</strong><small>為教學現場開發的班級管理工具。</small></span><span class="source">GitHub</span></a></li>
+        <li><a href="https://github.com/CY-Marowak/Clash-of-Code"><span><strong>Clash of Code</strong><small>我為 CodinGame 的限時程式挑戰設計的謎題。</small></span><span class="source">GitHub</span></a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
